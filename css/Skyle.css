@@ -1,0 +1,435 @@
+/* CSS SOHO */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+½ body {
+    background-color: #000000;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    cursor: pointer;
+}
+
+#p5 {
+    
+    position: absolute;
+    top: 500%;
+    left: 5%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.2rem;
+    color: #000000;
+    
+}
+#p5s2 {
+    
+    position: absolute;
+    top: 505%;
+    left: 5%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.2rem;
+    color: #000000;
+    
+}
+
+
+
+/*----------------------------------------------------------top------------*/
+
+.content {
+    background-color: white;
+}
+
+#logo {
+    position: absolute;
+    height: 10%;
+    width: auto;
+    left: 2%;
+    top: 4%;
+}
+
+#lydikontekst {
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 3px 1px black;
+}
+
+#lydikon {
+    position: absolute;
+    top: 67%;
+    left: 33%;
+
+
+}
+
+#banner {
+    position: absolute;
+    top: 30%;
+    font-size: 5rem;
+    left: 37%;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 3px 1px black;
+}
+
+#bannerundertekst {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    top: 45%;
+    font-size: 3rem;
+    left: 38.5%;
+    text-shadow: 3px 1px black;
+
+}
+
+#scrolltekst {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    top: 75%;
+    left: 70.8%;
+    font-size: 2rem;
+    text-shadow: 3px 1px black;
+}
+
+#scrollmus {
+    position: absolute;
+    top: 82%;
+    left: 72%;
+}
+
+#scrollpil {
+    height: 5%;
+    width: auto;
+    position: absolute;
+    top: 93.5%;
+    left: 73.3%;
+    animation-name: pil;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+/* ---------------------------------Slut på første slide intro-------------*/
+
+/*- -------------------------------------------------readmore pile---------*/
+
+#readmore1 {
+    padding-left: 54%;
+    height: 25px;
+    width: 45px;
+    cursor: pointer;
+}
+
+#readmore1:hover {
+    animation-name: laesmerepil;
+    animation-iteration-count: infinite;
+    animation-duration: 2.7s;
+}
+
+#readmore2 {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    padding-left: 43%;
+}
+
+#readmore2:hover {
+    animation-name: laesmerepil;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+#readmore3 {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    padding-left: 17%;
+}
+
+#readmore3:hover {
+    animation-name: laesmerepil;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+
+/*-------------------------------------------------------------Content---- */
+
+.bigbox {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+/*---------------------------------------------------------------2---------*/
+
+#historietekst {
+    position: absolute;
+    top: 125%;
+    left: 6%;
+    font-size: 1.2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    z-index: 2;
+    width: 40%;
+    line-height: 150%;
+    background-color: white;
+    opacity: 0.8;
+    filter: Alpha(opacity=50);
+    border: 4px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+/*------------------------------------------------------3------------------*/
+
+#tekst3 {
+position: absolute; 
+
+font-size: 1.2rem;
+font-family: 'Josefin Sans',
+sans-serif;
+z-index: 2;
+left: 2%;
+top: 290%;
+background-color: white;
+opacity: 0.9;
+filter: Alpha(opacity=50);
+border: 4px;
+border-radius: 10px;
+width: 600px;
+padding: 10px;
+line-height: 150%;
+}
+
+/*-----------------------------------------------------------4-------------*/
+
+#tekst4 {
+    font-size: 1.2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    right: 73%;
+    top: 380%;
+    z-index: 2;
+    width: 25%;
+    line-height: 150%;
+}
+
+/*------------------------------------------------------------5------------*/
+
+#tekst5 {
+    font-size: 1.2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    right: 73%;
+    top: 380%;
+    z-index: 2;
+    width: 25%;
+    line-height: 150%;
+}
+
+
+/*---------------------------------------------------------Webdoc slut-----*/
+
+
+
+/*-----------------------------------------------------Animationer---------*/
+
+
+
+@keyframes pil {
+    0% {
+        transform: translateY(-10px)
+    }
+    50% {
+        transform: translateY(+10px)
+    }
+    100% {
+        transform: translateY(-10px)
+    }
+}
+
+@keyframes laesmerepil {
+    0% {
+        transform: translateY(-3px)
+    }
+    50% {
+        transform: translateY(+3px)
+    }
+    100% {
+        transform: translateY(-3px)
+    }
+}
+
+/*-----------------------------------------------------Ipad vation---------*/
+
+@media screen and (max-width: 768px) {
+
+    
+    
+
+    #logo {
+        height: 8%;
+        left: 2%;
+        top: 4%;
+    }
+
+    #banner {
+        top: 8%;
+        font-size: 3rem;
+        left: 25%;
+    }
+
+    #bannerundertekst {
+
+        top: 16.5%;
+        font-size: 1.7rem;
+        left: 27.5%;
+    }
+
+    #lydikontekst {
+        top: 24%;
+        left: 20%;
+        font-size: 1.2rem;
+    }
+
+    #lydikon {
+        top: 65%;
+        left: 33%;
+    }
+
+    #scrolltekst {
+        top: 24%;
+        left: 70.8%;
+        font-size: 1.2rem;
+    }
+
+    #scrollmus {
+        top: 28.5%;
+        width: 8%;
+        height: 5%;
+        left: 72%;
+    }
+
+    #scrollpil {
+        height: 3%;
+        top: 34.7%;
+        left: 74%;
+        animation-duration: 2.5s;
+
+    }
+
+    #readmore1 {
+        padding-left: 71%;
+        height: 16px;
+        width: 39px;
+
+    }
+
+    #historietekst {
+        top: 42%;
+        left: 3%;
+        font-size: 0.9rem;
+        width: 65%;
+        line-height: 110%;
+
+
+    }
+
+
+
+}
+
+/*----------------------------------------------------Mobil vation---------*/
+
+@media screen and (max-width: 480px) {
+
+
+
+    #logo {
+        height: 5%;
+        left: 2%;
+        top: 1%;
+    }
+
+    #banner {
+        top: 4%;
+        font-size: 2rem;
+        left: 26%;
+    }
+
+    #bannerundertekst {
+        top: 10%;
+        font-size: 1.3rem;
+        left: 29%;
+    }
+
+    #lydikontekst {
+        top: 14%;
+        left: 20%;
+        font-size: 0.9rem;
+    }
+
+    #lydikon {
+        top: 65%;
+        left: 33%;
+        width: 25%;
+    }
+
+    #scrolltekst {
+        top: 14%;
+        left: 70%;
+        font-size: 0.9rem;
+    }
+
+    #scrollmus {
+        top: 17.6%;
+        width: 7%;
+        height: 3%;
+        left: 74%;
+    }
+
+    #scrollpil {
+        height: 2%;
+        top: 21.8%;
+        left: 75.5%;
+    }
+
+    #historietekst {
+        top: 25%;
+        left: 1%;
+        font-size: 0.6rem;
+        width: 65%;
+        line-height: 110%;
+    }
+    #readmore1 {
+        padding-left: 71%;
+        height: 14px;
+        width: 29px;
+
+    }
+
+
+}
