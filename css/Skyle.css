@@ -1,53 +1,11 @@
 /* CSS SOHO */
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-nav,
-section,
-summary {
-    display: block;
-}
-
-½ body {
+body {
     background-color: #000000;
     width: 100%;
-    margin: 0;
+     margin: 0;
     padding: 0;
 }
-
-a {
-    cursor: pointer;
-}
-
-#p5 {
-    
-    position: absolute;
-    top: 500%;
-    left: 5%;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 2.2rem;
-    color: #000000;
-    
-}
-#p5s2 {
-    
-    position: absolute;
-    top: 505%;
-    left: 5%;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 2.2rem;
-    color: #000000;
-    
-}
-
-
 
 /*----------------------------------------------------------top------------*/
 
@@ -133,11 +91,12 @@ a {
 
 /*- -------------------------------------------------readmore pile---------*/
 
+
 #readmore1 {
-    padding-left: 54%;
-    height: 25px;
-    width: 45px;
-    cursor: pointer;
+        padding-left: 0%;
+        height: 20px;
+        width: 30px;
+        cursor: pointer;
 }
 
 #readmore1:hover {
@@ -147,10 +106,10 @@ a {
 }
 
 #readmore2 {
-    height: 30px;
-    width: 30px;
-    cursor: pointer;
-    padding-left: 43%;
+    padding-left: 0%;
+        height: 20px;
+        width: 30px;
+        cursor: pointer;
 }
 
 #readmore2:hover {
@@ -159,29 +118,10 @@ a {
     animation-duration: 3s;
 }
 
-#readmore3 {
-    height: 30px;
-    width: 30px;
-    cursor: pointer;
-    padding-left: 17%;
-}
-
-#readmore3:hover {
-    animation-name: laesmerepil;
-    animation-iteration-count: infinite;
-    animation-duration: 3s;
-}
 
 
-/*-------------------------------------------------------------Content---- */
 
-.bigbox {
-    display: flex;
-    flex-direction: row;
-
-}
-
-
+/*------Content---- */
 
 /*---------------------------------------------------------------2---------*/
 
@@ -189,34 +129,37 @@ a {
     position: absolute;
     top: 125%;
     left: 6%;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-family: 'Josefin Sans', sans-serif;
     z-index: 2;
     width: 40%;
     line-height: 150%;
     background-color: white;
     opacity: 0.8;
-    filter: Alpha(opacity=50);
     border: 4px;
     border-radius: 10px;
     padding: 10px;
 
 }
 
-/*------------------------------------------------------3------------------*/
+/*------------------------------------------------------4------------------*/
 
-#tekst3 {
+.bigbox {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#tekstkollage {
 position: absolute; 
-
-font-size: 1.2rem;
+font-size: 1.5rem;
 font-family: 'Josefin Sans',
 sans-serif;
 z-index: 2;
-left: 2%;
-top: 290%;
+left: 5%;
+top: 340%;
 background-color: white;
 opacity: 0.9;
-filter: Alpha(opacity=50);
 border: 4px;
 border-radius: 10px;
 width: 600px;
@@ -224,36 +167,41 @@ padding: 10px;
 line-height: 150%;
 }
 
-/*-----------------------------------------------------------4-------------*/
-
-#tekst4 {
-    font-size: 1.2rem;
-    font-family: 'Josefin Sans', sans-serif;
-    position: absolute;
-    right: 73%;
-    top: 380%;
-    z-index: 2;
-    width: 25%;
-    line-height: 150%;
+#kollage {
+    margin-left: auto;
+    margin-top: 10px;
+        
 }
 
-/*------------------------------------------------------------5------------*/
+/*------------------------------------------------------5------------------*/
 
-#tekst5 {
-    font-size: 1.2rem;
-    font-family: 'Josefin Sans', sans-serif;
-    position: absolute;
-    right: 73%;
-    top: 380%;
-    z-index: 2;
-    width: 25%;
-    line-height: 150%;
+#deskbillede {
+    margin-top: 30px ;
+    
 }
 
+#desktekst {
+    
+    position: absolute;
+    top: 435%;
+    left: 5%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.1rem;
+    color: #000000;
+    
+}
+#desktekstsoho {
+    
+    position: absolute;
+    top: 439%;
+    left: 5%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.9rem;
+    color: #000000;
+    
+}
 
-/*---------------------------------------------------------Webdoc slut-----*/
-
-
+/*--------Content slut-----*/
 
 /*-----------------------------------------------------Animationer---------*/
 
@@ -282,8 +230,190 @@ line-height: 150%;
         transform: translateY(-3px)
     }
 }
+/*------------------------------------------1535px prosjektor Skole---------*/
 
-/*-----------------------------------------------------Ipad vation---------*/
+@media screen and (max-width: 1535px) {
+
+    
+
+    #logo {
+        height: 10%;
+        left: 2.5%;
+        top: 4.5%;
+    }
+
+    #banner {
+        top: 28%;
+        font-size: 3.7rem;
+        left: 34%;
+    }
+
+    #bannerundertekst {
+
+        top: 42.3%;
+        font-size: 1.9rem;
+        left: 35.2%;
+    }
+
+    #lydikontekst {
+        top: 59.5%;
+        left: 18%;
+        font-size: 1.5rem;
+    }
+
+    #lydikon {
+        top: 62.5%;
+        left: 25%;
+    }
+
+    #scrolltekst {
+        top: 59%;
+        left: 70.8%;
+        font-size: 1.5rem;
+    }
+
+    #scrollmus {
+        top: 66%;
+        width: 3.9%;
+        height: 5.6%;
+        left: 72.4%;
+    }
+
+    #scrollpil {
+        height: 4%;
+        top: 73.5%;
+        left: 73.2%;
+        animation-duration: 2.5s;
+
+    }
+
+    #historietekst {
+        top: 105%;
+        left: 30px;
+        font-size: 1.4rem;
+        width: 55%;
+        line-height: 110%;
+    }
+    
+    #kollage {
+    margin-right: 30px;
+    
+    }
+    
+    #tekstkollage {
+ 
+    font-size: 1.2rem;
+    left: 30px;
+    top: 315%;
+    width: 435px;
+    line-height: 130%;
+    }
+    
+    #desktekst {
+    
+    top: 412%;
+    left: 5%;
+    font-size: 1.5rem;
+    
+    
+}
+    #desktekstsoho {
+    
+    top: 416%;
+    left: 5%;
+    font-size: 1.5rem;
+    
+}
+
+
+}
+/*---------------------------------------------1200px---------------------*/
+
+@media screen and (max-width: 1200px) {
+
+    
+    
+    #logo {
+        height: 9%;
+        left: 1%;
+        top: 3%;
+    }
+
+    #banner {
+        top: 24%;
+        font-size: 2.8rem;
+        left: 36%;
+    }
+
+    #bannerundertekst {
+
+        top: 32.5%;
+        font-size: 1.6rem;
+        left: 37.2%;
+    }
+
+    #lydikontekst {
+        top: 46.5%;
+        left: 20%;
+        font-size: 1.4rem;
+    }
+
+    #lydikon {
+        top: 64%;
+        left: 33%;
+    }
+
+    #scrolltekst {
+        top: 46%;
+        left: 70.8%;
+        font-size: 1.4rem;
+    }
+
+    #scrollmus {
+        top: 50.5%;
+        width: 5%;
+        height: 5%;
+        left: 73%;
+    }
+
+    #scrollpil {
+        height: 3%;
+        top: 56.9%;
+        left: 74.1%;
+        animation-duration: 2.5s;
+
+    }
+
+    #historietekst {
+        top: 80%;
+        left: 6%;
+        font-size: 1.2rem;
+        width: 51%;
+        line-height: 110%;
+    }
+
+    #tekstkollage {
+    font-size: 1.1rem;
+    left: 5%;
+    top: 225%;
+    width: 400px;
+    line-height: 110%;
+    }
+    
+    #desktekst {
+    top: 275%;
+    left: 5%;
+    font-size: 1.2rem;  
+}
+    
+    #desktekstsoho {
+    top: 278%;
+    left: 5%;
+    font-size: 1.2rem;
+    
+}
+}
+/*-----------------------------------------------------Ipad version--------*/
 
 @media screen and (max-width: 768px) {
 
@@ -341,28 +471,43 @@ line-height: 150%;
 
     }
 
-    #readmore1 {
-        padding-left: 71%;
-        height: 16px;
-        width: 39px;
-
-    }
+   
 
     #historietekst {
-        top: 42%;
-        left: 3%;
+        top: 46%;
+        left: 2%;
         font-size: 0.9rem;
-        width: 65%;
+        width: 61%;
         line-height: 110%;
-
 
     }
 
-
+    #tekstkollage {
+    font-size: 0.8rem;
+    left: 2%;
+    top: 146%;
+    width: 280px;
+    line-height: 150%;
+    }
+    
+    #desktekst {
+    top: 180%;
+    left: 5%;
+    font-size: 1.2rem;
+    
+    
+}
+    #desktekstsoho {
+    
+    top: 183%;
+    left: 5%;
+    font-size: 1.2rem;
+    
+}
 
 }
 
-/*----------------------------------------------------Mobil vation---------*/
+/*----------------------------------------------------Mobil version---------*/
 
 @media screen and (max-width: 480px) {
 
@@ -405,7 +550,7 @@ line-height: 150%;
     }
 
     #scrollmus {
-        top: 17.6%;
+        top: 17%;
         width: 7%;
         height: 3%;
         left: 74%;
@@ -413,23 +558,40 @@ line-height: 150%;
 
     #scrollpil {
         height: 2%;
-        top: 21.8%;
-        left: 75.5%;
+        top: 21%;
+        left: 75.3%;
     }
 
     #historietekst {
-        top: 25%;
+        top: 27%;
         left: 1%;
-        font-size: 0.6rem;
-        width: 65%;
-        line-height: 110%;
+        font-size: 0.5rem;
+        width: 66%;
+        line-height: 130%;
     }
-    #readmore1 {
-        padding-left: 71%;
-        height: 14px;
-        width: 29px;
-
+   
+    
+    #tekstkollage {
+    font-size: 0.6rem;
+    left: 2%;
+    top: 86%;
+    width: 165px;
+    line-height: 140%;
     }
-
-
+    
+    #desktekst {
+    
+    top: 117%;
+    left: 5%;
+    font-size: 0.8rem;
+    
+    
+}
+    #desktekstsoho {
+    
+    top: 119%;
+    left: 5%;
+    font-size: 0.8rem;
+    
+}
 }

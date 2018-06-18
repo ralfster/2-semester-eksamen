@@ -2,7 +2,7 @@ document.getElementById("readmore1").onclick = function () {
     foldUd()
 } 
 function foldUd() {
-    console.log("yeds");
+    console.log("Fedt mann det virker!");
     
     document
     .getElementById("historietekst")
@@ -10,15 +10,15 @@ function foldUd() {
 
 }
    
-/*---------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------*/
 document.getElementById("readmore2").onclick = function () {
     foldUd
 
     
     document
-    .getElementById("tekst3")
+    .getElementById("tekstkollage")
     .innerHTML = "- SOHO vil være anderledes! At skille sig ud fra mængden og tilbyde ens kunder noget unikt i form af produkter og oplevelser er drivkraften bag SOHO. SOHO tager imod dig med åbne arme, og stræber efter at gøre din oplevelse hos SOHO til noget unikt. SOHO tilbyder ”hele pakken”, i form af kvalitetsprodukter, personlig og videns rig service og et bredt sortiment til enhver smag. Ud over dette, byder SOHO dig velkommen ind i varme og trygge rammer. Forretningen er præget af en afslappende stemning, som får dig til at føle dig hjemme.";
 }
 
-/*--------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
 
